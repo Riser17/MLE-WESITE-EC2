@@ -1,7 +1,7 @@
 
 import {createContext, useState} from 'react';
 import axios from 'axios'
-const apiUrl = 'http://localhost:9090/api'
+const apiUrl = 'http://3.80.94.112:9090/api'
 
 export const UserContext = createContext();
 
