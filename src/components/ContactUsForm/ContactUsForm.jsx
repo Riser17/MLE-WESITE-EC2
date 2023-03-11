@@ -14,19 +14,15 @@ export default function ContactUsForm () {
   const { SubmitFormData} = useContext(UserContext);
   const [captcha, setCaptcha] = useState('')
 
-  const onchange =(value)=>{
-    console.log('Captcha value:',value)
-    setCaptcha(value);
-  }
 
 
  const submitData = async(formdata)=>{
-  console.log(formdata);
+
   if(captcha){
   const res = await SubmitFormData(formdata);
-  console.log(res.status)
+
   if(res.status == 200){
-    console.log('ssss');
+
     toast.success("Your quary submitted. We will contact you soon",{position: "top-center"});
     return true
   }else{
