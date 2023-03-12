@@ -55,7 +55,7 @@ position: relative;
 }
 
 .form-content{
-    width: 100%;
+    width: 66%;
 }
 
 
@@ -65,7 +65,10 @@ position: relative;
     }
 
 
-
+    .form-content{
+        width: 100%;
+        padding: 0px !important;
+    }
 
     .contact-content{
         display: block;
