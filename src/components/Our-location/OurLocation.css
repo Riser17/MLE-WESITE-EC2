@@ -130,7 +130,7 @@
     .mainLocations {
       /* max-width: 1400px; */
       display: flex;
-      margin-right: auto;
+/*       margin-right: auto; */
       margin-left: auto;
       column-gap: 3rem;
       /* position: relative; */
