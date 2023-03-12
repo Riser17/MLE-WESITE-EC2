@@ -23,7 +23,7 @@ export default function ContactUsForm () {
 
   if(res.status == 200){
 
-    toast.success("Your quary submitted. We will contact you soon",{position: "top-center"});
+    toast.success("Your query submitted. We will contact you soon",{position: "top-center"});
     return true
   }else{
     return false
