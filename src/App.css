@@ -378,7 +378,7 @@ li {
 .error {
   font-size: 12px;
   color: var(--red-600);
-  margin-top: 0.25rem;
+  /* margin-top: 0.25rem; */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -415,13 +415,14 @@ button[type="reset"] {
 }
 
 
+
 /* Input form Style */
 
 input[type="text"], input[type="tel"], input[type="email"], select {
 
   padding: 6px 12px;
   box-shadow: none;
-  margin-bottom: 10px; 
+  /* margin-bottom: 10px;  */
 }
 
 /* Label style after Input feild is in focus. Can also use input:focus ~ label to select sibling. */
@@ -440,7 +441,9 @@ input:focus + label, input:valid + label, select:focus + label, select:valid + l
   /* min-height: 85px; */
   margin-bottom: 10px;
 }
-
+.errorMsg{
+  height: 17px !important;
+}
 
 
 
@@ -491,6 +494,7 @@ a {
   outline: 0;
   box-shadow: none;
 }
+
 
 
 @font-face{
