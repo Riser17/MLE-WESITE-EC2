@@ -11,10 +11,11 @@ export const MyTextInput = ({ label, ...props }) => {
     return (
       <div className='input_wrap'>
         <input className="text-input" {...field} {...props} required/>
-     
+      <div className="errorMsg">
         {meta.touched && meta.error ? (
           <div className="error">{meta.error}</div>
         ) : null}
+        </div>
       </div>
     );
   };
